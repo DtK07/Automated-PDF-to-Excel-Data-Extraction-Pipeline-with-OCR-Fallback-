@@ -83,12 +83,12 @@ Pathlib | File system automation |
 
 ## Key Features
 
-✔ Handles mixed PDF types automatically  
-✔ Intelligent fallback from text extraction → OCR  
-✔ Batch processing for large datasets  
-✔ Converts unstructured documents into structured data  
-✔ Eliminates manual transcription work  
-✔ Designed for scalability and reuse  
+ Handles mixed PDF types automatically  
+ Intelligent fallback from text extraction → OCR  
+ Batch processing for large datasets  
+ Converts unstructured documents into structured data  
+ Eliminates manual transcription work  
+ Designed for scalability and reuse  
 
 ---
 
@@ -133,7 +133,7 @@ This project showcases practical skills in:
 
 ---
 
-## ⚠️ Requirements
+## Requirements
 
 Install dependencies before running:
 
