@@ -1,17 +1,17 @@
-# 📄 Automated PDF-to-Excel Data Extraction Pipeline (with OCR Fallback)
+# Automated PDF-to-Excel Data Extraction Pipeline (with OCR Fallback)
 
-## 🔎 Overview
+##  Overview
 This project automates the extraction of structured information from a collection of institutional PDF documents and compiles the results into a clean, analysis-ready Excel dataset.
 
 The solution is designed to handle both:
-- ✅ **Text-based PDFs** (machine-readable)
-- ✅ **Scanned/Image PDFs** (non-readable)
+-  **Text-based PDFs** (machine-readable)
+-  **Scanned/Image PDFs** (non-readable)
 
 When direct text extraction fails, the system automatically switches to **OCR (Optical Character Recognition)** to recover the content — ensuring reliable extraction regardless of document format.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 Manually extracting contact and institutional details from hundreds of PDFs is:
 
 - Time-consuming  
@@ -23,7 +23,7 @@ This project converts semi-structured PDF documents into a structured dataset au
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### Step 1 — Batch Processing
 - Reads all PDFs from a specified folder.
@@ -67,7 +67,7 @@ All extracted data is written into an Excel workbook using **openpyxl**, produci
 
 ---
 
-## 🧰 Technology Stack
+## Technology Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -81,7 +81,7 @@ Pathlib | File system automation |
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ✔ Handles mixed PDF types automatically  
 ✔ Intelligent fallback from text extraction → OCR  
@@ -92,14 +92,14 @@ Pathlib | File system automation |
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 | File Name | College Name | City | Email | Phone | Website | Type |
 |-----------|--------------|------|-------|-------|---------|------|
 
 ---
 
-## 🚀 Use Cases
+## Use Cases
 
 - Digitizing legacy document archives  
 - Creating institutional directories  
@@ -109,7 +109,7 @@ Pathlib | File system automation |
 
 ---
 
-## 🧠 What This Project Demonstrates
+## What This Project Demonstrates
 
 This project showcases practical skills in:
 
@@ -122,7 +122,7 @@ This project showcases practical skills in:
 
 ---
 
-## 🔮 Potential Enhancements
+## Potential Enhancements
 
 - Add regex-based parsing for improved accuracy  
 - Store outputs in SQL database instead of Excel  
